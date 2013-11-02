@@ -1,0 +1,28 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+.jumbotron {
+	min-height: 400px;
+	background: #adadad;
+	border: none;
+	border-radius: 0;
+}
+.jumbotron img {
+	margin: 0 auto;
+	position: absolute;
+	left: 20%;
+}
+.main {
+	background: #fff;
+}
+.cntr {
+	margin: 0 auto;
+	float: none;
+}
+.alert {
+	z-index: 2;
+	position: absolute;
+	right: 20%;
+}
