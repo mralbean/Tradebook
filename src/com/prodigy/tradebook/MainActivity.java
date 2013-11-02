@@ -5,6 +5,7 @@ import com.parse.ParseAnalytics;
 
 import android.os.Bundle;
 import android.app.Activity;
+import android.content.Intent;
 import android.view.Menu;
 
 public class MainActivity extends Activity {
@@ -17,8 +18,7 @@ public class MainActivity extends Activity {
 				"9baXMlqJXVa1iUzghIE1Q3wkI4PDjMKhKMwtdj3l");
   
         
-        setContentView(R.layout.activity_main);
-
+        this.startActivity(new Intent(this, Login.class));
     }
 
 
